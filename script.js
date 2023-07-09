@@ -3,7 +3,6 @@ const opt=document.getElementById('opt')
 const res=document.getElementById('result');
 const btn=document.getElementById('btn');
 let randomNum=Math.floor((Math.random()*100)+1);
-console.log(randomNum)
 let count=0;
 const getNum=()=>{
     if(guess.value=='')
